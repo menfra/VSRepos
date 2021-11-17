@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="25c8de2b-3111-4bba-b0b9-c165b9640bbf" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="ed4fed4b-4024-4ef2-9d73-37ea045c4e92">
+      <sceneComponent Id="690d0cd4-a92b-42c6-b0c6-ac81946db46e" name="FinishingButton" myID="0" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

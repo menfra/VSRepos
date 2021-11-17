@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a741fdfe-9b9d-42cc-981e-44617906c6a7" xmlns="http://schemas.microsoft.com/dsltools/ARData">
+  <sceneObject>
+    <dataModelHasSceneObject Id="a1d56eb6-ca89-4b8e-8ca1-982b588d1eaf">
+      <button Id="2b02ab85-ef0a-4de7-b5b3-4dcb195264fa" myID="1" name="Button1" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="d0919841-538d-44f2-8261-efbd293e80bc">
+      <button Id="21d45f81-e3cf-4cc0-8dad-248802b62943" myID="2" name="Button2" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="63708cf2-84b0-4740-a96c-d3ad6ae5203f">
+      <scanTarget Id="75f9a812-cfc5-4de4-982e-30b5751c3294" myID="1" name="Laptop" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="a92072fb-de08-4066-ab10-55d10074e888">
+      <scanTarget Id="54e664f6-a5f8-4712-b690-068436f38de5" myID="2" name="Mouse" />
+    </dataModelHasSceneObject>
+  </sceneObject>
+</dataModel>

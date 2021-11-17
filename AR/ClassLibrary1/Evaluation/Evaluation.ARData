@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e034a972-9e8d-4465-ba81-9d08bfd22f7f" highestID="9" xmlns="http://schemas.microsoft.com/dsltools/ARData">
+  <sceneObject>
+    <dataModelHasSceneObject Id="8e333d9a-6226-43b7-8f96-8ed637252463">
+      <button Id="e85b550e-c464-402d-b3e1-0aa3165567f0" myID="1" name="end" caption="End tour" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="92f8a189-43f1-4e47-8cca-0b97922baad5">
+      <textField Id="0356fc96-ac3f-4cf7-a1e4-620ca1671a2d" myID="2" name="GradCanal" text="This is the Grand Canal" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="bdeb251f-382b-42e8-ab15-bc9e89720d52">
+      <textField Id="5d10732e-4461-418e-960e-e1db4c93908c" myID="3" name="venice" text="This is Venice" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="cc9ca891-b05c-4c29-a8f8-6596872db15b">
+      <textField Id="723ae11d-1077-418e-b57e-86f469f13572" myID="4" name="Instruction" text="Look around for some images to scan" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="13326fb1-fd38-489f-b21e-dca2de3df246">
+      <textField Id="956e0be4-0b2f-4ebb-ad2e-e953842fb11a" myID="5" name="Welcome" text="Welcome to the tour" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="98299df2-0108-48cd-9cdc-1224b3e679ad">
+      <textField Id="509f9157-c0fb-42bd-9aec-3ea706725b71" myID="6" name="landscape" text="This is Landscape" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="1c8787b4-2b65-4bc4-8fdb-8f8f709f48bd">
+      <scanTarget Id="3941183f-ccfa-4d20-bbff-ae4087cacc36" myID="7" name="TheGrandCanal" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="762d5f00-b5db-48eb-9db8-75a7155f94ff">
+      <scanTarget Id="cdbdf4a2-a8f7-416c-9536-584d639c3799" myID="8" name="Landscape" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="b6a86abb-39b9-4ee3-a873-b8e56fd9c445">
+      <scanTarget Id="c7387d5f-1d69-4185-9f63-98da88d5f3e2" myID="9" name="Venice" />
+    </dataModelHasSceneObject>
+  </sceneObject>
+  <networkObject>
+    <dataModelHasNetworkObject Id="0ed07a63-73e9-4964-b473-46bb52863121">
+      <networkHandler Id="17a9ac93-8550-4e94-8ac2-239ea7e58d1e" />
+    </dataModelHasNetworkObject>
+  </networkObject>
+</dataModel>

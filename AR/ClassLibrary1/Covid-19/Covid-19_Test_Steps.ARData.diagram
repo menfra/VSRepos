@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRDataDiagram dslVersion="1.0.0.0" Id="c82da1f8-f966-4d89-94b8-605be2ba5404" absoluteBounds="0, 0, 11, 8.5" name="Covid-19_Test_Steps">
+  <dataModelMoniker Id="1e1fec47-57f5-4a09-9aad-d9624b16ab22" />
+  <nestedChildShapes>
+    <scanTargetShape Id="9cc90e0d-ad50-4621-a853-602458ab8200" absoluteBounds="1.375, 1, 1.5, 1">
+      <scanTargetMoniker Id="9433a863-d84f-4e3f-addb-3fad2985ba64" />
+    </scanTargetShape>
+    <buttonShape Id="d990999b-abb3-40be-a88e-860ae8f23642" absoluteBounds="4, 1, 1.5, 1">
+      <buttonMoniker Id="a0975739-9864-48aa-96e6-432a70d1ed14" />
+    </buttonShape>
+    <buttonShape Id="fc2d7c98-4389-44f2-9f29-965989126f31" absoluteBounds="4, 2.25, 1.5, 1">
+      <buttonMoniker Id="9087c0ce-3eba-4de0-b45e-f25a8913d6b8" />
+    </buttonShape>
+    <scanTargetShape Id="eaf2907a-6bff-4fd7-a885-a547496238f2" absoluteBounds="1.375, 2.25, 1.5, 1">
+      <scanTargetMoniker Id="f323e662-c24d-4c46-b897-a2bcdc571115" />
+    </scanTargetShape>
+    <scanTargetShape Id="d5a184b3-4273-4304-bcd1-7e74ee023756" absoluteBounds="1.375, 3.5, 1.5, 1">
+      <scanTargetMoniker Id="7b1663c4-8bfc-44e0-9ff9-c11a9d8db631" />
+    </scanTargetShape>
+  </nestedChildShapes>
+</aRDataDiagram>

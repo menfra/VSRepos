@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="41fbb89f-7afd-4766-84bf-a014d929b968" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="195bbede-203a-4221-8ce3-fcbde67e8b41">
+      <sceneComponent Id="71dc85e3-31d6-4585-a165-baf246b2af1c" name="TheGrandCanalText" myID="5" x="10" y="10" z="-2" scanTargetID="1" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="5bb66d89-bd91-4263-902c-5bacae0ec814">
+      <sceneComponent Id="71536f6f-c49a-4916-ad5f-f0b1ae925760" name="TheGrandCanal" myID="13" x="10" y="20" z="-2" scanTargetID="1">
+        <sceneElement>
+          <navigationFlow Id="363c1375-a260-4bf2-95fa-f8a1afc83215">
+            <sceneComponentMoniker Id="0e4aab7a-9016-4053-8c90-41ce738357da" />
+          </navigationFlow>
+        </sceneElement>
+      </sceneComponent>
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="55ad2647-15b6-4239-9fab-e395220e45e8">
+      <sceneComponent Id="0e4aab7a-9016-4053-8c90-41ce738357da" name="TheGrandCanalAudio" myID="17" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <comment>
+    <sceneHasComment Id="5b63107b-ad39-443e-95b5-67a48966a5b8">
+      <comment Id="b3171149-e6de-40db-927f-e60480c7445e" text="This gets shown when the image 'The grand canal' is in the visible area">
+        <sceneElement>
+          <commentReferencesSceneElement Id="1d6667a9-5d31-4ef9-8f1b-6ac75133c73f">
+            <sceneComponentMoniker Id="71dc85e3-31d6-4585-a165-baf246b2af1c" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+    <sceneHasComment Id="42f6bb69-2b6e-425d-9489-665e7d862542">
+      <comment Id="9e65951f-aa66-4cfc-bf54-183bbc491251" text="Click the button to play some audio giving more information">
+        <sceneElement>
+          <commentReferencesSceneElement Id="898d011b-a990-45af-bf4c-4e70fa5d6ecb">
+            <sceneComponentMoniker Id="71536f6f-c49a-4916-ad5f-f0b1ae925760" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+  </comment>
+</scene>

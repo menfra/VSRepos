@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRSceneDiagram dslVersion="1.0.0.0" Id="31db53a0-0e0a-4b45-bb09-82bcf590f4b8" absoluteBounds="0, 0, 11, 8.5" name="MuseumCaseStudy.8">
+  <sceneMoniker Id="dbe4f074-ec00-4347-9c55-4e4bb41d1df9" />
+  <nestedChildShapes>
+    <sceneComponentShape Id="537b4ef0-0a5c-4da2-8d19-46e06512f7c2" absoluteBounds="7, 2.625, 1.5, 1" fillColor="White">
+      <sceneComponentMoniker Id="91ec7a99-a7a0-4e01-ba72-fbebcc3f0d6a" />
+    </sceneComponentShape>
+    <requestShape Id="47fcbbd1-d789-4017-80f7-543235a89a0f" absoluteBounds="7, 0.625, 1.5, 1">
+      <requestMoniker Id="0c328985-c122-4c62-a2a3-534bb2ce8ca7" />
+    </requestShape>
+    <connector2 Id="35e7f265-82d9-4ff5-8646-e8ef23ba1fbc" edgePoints="[(7.75 : 2.625); (7.75 : 1.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <sceneComponentReferencesRequestMoniker Id="b9dcfe82-a2c4-48c3-b9cb-4cbb75399b7d" />
+      <nodes>
+        <sceneComponentShapeMoniker Id="537b4ef0-0a5c-4da2-8d19-46e06512f7c2" />
+        <requestShapeMoniker Id="47fcbbd1-d789-4017-80f7-543235a89a0f" />
+      </nodes>
+    </connector2>
+    <sceneComponentShape Id="e9de9760-2978-4c78-b64c-d9fa8311eb21" absoluteBounds="7, 4.375, 1.5, 1" fillColor="White">
+      <sceneComponentMoniker Id="bde33ece-8fe4-42ed-8b1d-3dca32afb844" />
+    </sceneComponentShape>
+  </nestedChildShapes>
+</aRSceneDiagram>

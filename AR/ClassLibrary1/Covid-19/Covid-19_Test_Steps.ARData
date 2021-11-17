@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1e1fec47-57f5-4a09-9aad-d9624b16ab22" xmlns="http://schemas.microsoft.com/dsltools/ARData">
+  <sceneObject>
+    <dataModelHasSceneObject Id="bada8d8c-d8f2-45ee-8de1-e0806faf932b">
+      <scanTarget Id="9433a863-d84f-4e3f-addb-3fad2985ba64" myID="3" name="Frank" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="58eacb3e-a06f-4b88-969c-59d947ccec7f">
+      <button Id="a0975739-9864-48aa-96e6-432a70d1ed14" myID="1" name="btn1" caption="Call health Links." />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="83ec7bad-a3a4-486a-9972-2f565c13a16a">
+      <button Id="9087c0ce-3eba-4de0-b45e-f25a8913d6b8" myID="2" name="btn2" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="12983b8c-53e3-41b7-a175-e7147e1c14b5">
+      <scanTarget Id="f323e662-c24d-4c46-b897-a2bcdc571115" myID="4" name="Busa" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="bed76d22-5647-449e-872e-deff1db14149">
+      <scanTarget Id="7b1663c4-8bfc-44e0-9ff9-c11a9d8db631" myID="5" name="Mishra" />
+    </dataModelHasSceneObject>
+  </sceneObject>
+</dataModel>

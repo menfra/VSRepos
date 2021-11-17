@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRSceneDiagram dslVersion="1.0.0.0" Id="76bbd79b-e54b-444d-8498-d2c22a1f6faf" absoluteBounds="0, 0, 11, 8.5" name="3">
+  <sceneMoniker Id="6dbbba73-5f75-4566-9926-8c8989f4494f" />
+  <nestedChildShapes>
+    <geometryShape1 Id="476f4ed4-1dff-4772-a032-80b9af5ceed4" absoluteBounds="1.75, 2.875, 1.5, 1">
+      <sceneComponentMoniker Id="2554699e-1e4e-4d17-b843-23f1d9ecd477" />
+    </geometryShape1>
+    <commentShape Id="dc7936dc-3fc1-40ae-b53f-8dac255bc844" absoluteBounds="3.375, 1, 4.25, 1">
+      <commentMoniker Id="ea7a01f7-52e4-4d21-9241-8101cba5918a" />
+    </commentShape>
+    <connector3 Id="b0e46874-ec25-4e0e-8f7e-cd8692058206" edgePoints="[(3.375 : 2); (3.25 : 2.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <commentReferencesSceneElementMoniker Id="5d254f14-6570-46d4-ab82-38d1fa0a57e8" />
+      <nodes>
+        <commentShapeMoniker Id="dc7936dc-3fc1-40ae-b53f-8dac255bc844" />
+        <geometryShape1Moniker Id="476f4ed4-1dff-4772-a032-80b9af5ceed4" />
+      </nodes>
+    </connector3>
+  </nestedChildShapes>
+</aRSceneDiagram>

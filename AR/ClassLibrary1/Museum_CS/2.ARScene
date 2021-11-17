@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="907e4b68-86b4-41d0-927b-40c7ad08a375" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="28387dd4-943a-4095-bf7a-cd455548a828">
+      <sceneComponent Id="a1b9bd06-2b66-43b5-9e12-c5fa6b21397f" myID="6" x="10" y="10" z="-2" scanTargetID="2" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRDataDiagram dslVersion="1.0.0.0" Id="b6acc641-346d-4c98-baba-07fe96fd6553" absoluteBounds="0, 0, 11, 8.5" name="Evaluation">
+  <dataModelMoniker Id="e034a972-9e8d-4465-ba81-9d08bfd22f7f" />
+  <nestedChildShapes>
+    <networkHandlerShape Id="9d3adfb8-48f6-4ba9-ac71-bd1672cd3a1b" absoluteBounds="0.5, 2, 1.5, 1" fillColor="DarkOliveGreen">
+      <networkHandlerMoniker Id="17a9ac93-8550-4e94-8ac2-239ea7e58d1e" />
+    </networkHandlerShape>
+    <buttonShape Id="228b354f-0906-40fa-bc4a-aaf17ad73634" absoluteBounds="4.25, 2.125, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="e85b550e-c464-402d-b3e1-0aa3165567f0" />
+    </buttonShape>
+    <textFieldShape Id="00ec4366-3241-4070-af07-3093f08ff100" absoluteBounds="7.375, 4.375, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="0356fc96-ac3f-4cf7-a1e4-620ca1671a2d" />
+    </textFieldShape>
+    <textFieldShape Id="25be922c-7aab-4d1e-873c-dae1720280d8" absoluteBounds="7.375, 5.625, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="5d10732e-4461-418e-960e-e1db4c93908c" />
+    </textFieldShape>
+    <textFieldShape Id="d2f710c1-d562-49a3-9c17-81c397457d8a" absoluteBounds="7, 2.75, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="723ae11d-1077-418e-b57e-86f469f13572" />
+    </textFieldShape>
+    <textFieldShape Id="d342efeb-b258-49f3-a6c4-b05a17399d52" absoluteBounds="7, 1.625, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="956e0be4-0b2f-4ebb-ad2e-e953842fb11a" />
+    </textFieldShape>
+    <textFieldShape Id="625d22e3-875d-4ba7-8a15-7800ae7feccd" absoluteBounds="7.375, 6.875, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="509f9157-c0fb-42bd-9aec-3ea706725b71" />
+    </textFieldShape>
+    <scanTargetShape Id="6716bcb7-a465-456f-8c7c-43a1b6363a0c" absoluteBounds="5.375, 4.5, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="3941183f-ccfa-4d20-bbff-ae4087cacc36" />
+    </scanTargetShape>
+    <scanTargetShape Id="88ea8690-adc4-4470-b467-d7a862c6acb5" absoluteBounds="5.5, 6.75, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="cdbdf4a2-a8f7-416c-9536-584d639c3799" />
+    </scanTargetShape>
+    <scanTargetShape Id="18091671-7ef6-430d-a293-b0b235a13aa6" absoluteBounds="5.5, 5.625, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="c7387d5f-1d69-4185-9f63-98da88d5f3e2" />
+    </scanTargetShape>
+  </nestedChildShapes>
+</aRDataDiagram>

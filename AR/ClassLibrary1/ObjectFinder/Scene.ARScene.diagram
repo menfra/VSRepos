@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRSceneDiagram dslVersion="1.0.0.0" Id="2ee072b3-ed3f-4c45-ab91-10fe239c8b7e" absoluteBounds="0, 0, 11, 8.5" name="Scene">
+  <sceneMoniker Id="4b889531-17fd-4136-924a-e5403254d215" />
+  <nestedChildShapes>
+    <sceneComponentShape Id="6c4416aa-889c-4021-a63a-43a1109c4365" absoluteBounds="2.125, 2.25, 1.5, 1">
+      <sceneComponentMoniker Id="b4a8b29c-a261-4f9b-b2ac-28a604df8762" />
+    </sceneComponentShape>
+    <sceneComponentShape Id="ba8abcd7-f7f2-4653-967e-9f8773550b44" absoluteBounds="5, 2.25, 1.5, 1">
+      <sceneComponentMoniker Id="f9929eff-132a-483e-b77f-245b2c13c413" />
+    </sceneComponentShape>
+    <sceneComponentShape Id="01581f44-e9ab-4273-8a90-4958cbb8333c" absoluteBounds="2.125, 4, 1.5, 1">
+      <sceneComponentMoniker Id="04c687b1-7168-4e65-aa1f-dc5e49ace363" />
+    </sceneComponentShape>
+  </nestedChildShapes>
+</aRSceneDiagram>

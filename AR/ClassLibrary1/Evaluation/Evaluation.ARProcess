@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3165de80-fe30-4956-9145-a6e8b45b4def" xmlns="http://schemas.microsoft.com/dsltools/ARProcess">
+  <elements>
+    <startEvent Id="de74b7b2-3a11-41cd-b8a1-fd4830b36a22" name="StartEvent1" />
+    <subtask Id="f01605f9-58cd-4996-b2bd-b7b294c781c8" name="Subtask1">
+      <scene>
+        <subtaskReferencesScene Id="ccf5ca7d-5b38-4e71-9b02-59e6938d04ea">
+          <sceneMoniker Id="2e1e7515-5dbc-4ae9-91ab-90338cc6fc99" />
+        </subtaskReferencesScene>
+      </scene>
+    </subtask>
+  </elements>
+  <scene>
+    <dSLModelHasScene Id="727069b6-416b-4916-8d43-63e36f42f3e3">
+      <scene Id="2e1e7515-5dbc-4ae9-91ab-90338cc6fc99" myID="1" />
+    </dSLModelHasScene>
+  </scene>
+</dSLModel>

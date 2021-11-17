@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e" xmlns="http://schemas.microsoft.com/dsltools/ARProcess">
+  <elements>
+    <fulltask Id="2ee4277d-ae19-4795-8a88-502a2f7ca02e" name="Welcome to the Museum">
+      <targetTask>
+        <next Id="89ac4516-bc23-468a-8dde-295a4d0a350b">
+          <splittaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Splittask1" />
+        </next>
+      </targetTask>
+    </fulltask>
+    <decision Id="b40c704a-1e82-4ccb-b802-0ede1826e73f" name="Art museums?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="f1f36974-02dd-4623-9c17-4b71fda72c04">
+          <subtaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/AR support coming up soon." />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="070a319b-00d0-4f24-b8aa-6983865fc9c5" name="Computer museum?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="36bb1bc8-fc92-4e7e-a458-5cb25b56fc10">
+          <subtaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Go to the 5th floor" />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="447e2c3e-bd31-4b6c-8f97-7008f87d5230" name="Air museum?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="259448c6-0a76-41b6-9f25-6a119d3995d6">
+          <subtaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/AR support coming up soon." />
+        </next>
+      </targetTask>
+    </decision>
+    <splittask Id="13f2775f-5f4c-49fe-bf1e-bc872e5f3050" name="Splittask1">
+      <decision>
+        <splittaskReferencesDecision Id="567ae9b1-bfae-4c47-ae83-fe190850267d">
+          <decisionMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Art museums?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="35cded8f-6525-4618-9b45-58d13c06e86e">
+          <decisionMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Computer museum?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="c1030e9e-7ad4-4212-a5e4-e766c7465e54">
+          <decisionMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Air museum?" />
+        </splittaskReferencesDecision>
+      </decision>
+    </splittask>
+    <subtask Id="ec6bc814-c04d-44a2-b9d7-ea0309c5628c" name="AR support coming up soon.">
+      <targetTask>
+        <next Id="390695f6-de09-453c-b1a9-e8c949a1ce9f">
+          <mergeTaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/MergeTask1" />
+        </next>
+      </targetTask>
+    </subtask>
+    <subtask Id="05644244-6a6a-4592-bdb9-96421fb1a99a" name="AR support coming up soon.">
+      <targetTask>
+        <next Id="7195239e-8584-437c-9037-39e40f489470">
+          <mergeTaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/MergeTask1" />
+        </next>
+      </targetTask>
+    </subtask>
+    <subtask Id="022400c1-ee93-4643-bdd4-829cd28fa1dd" name="Go to the 5th floor">
+      <targetTask>
+        <next Id="28588268-a88a-426d-8ff0-ff2ac9fcdae3">
+          <splittaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Splittask2" />
+        </next>
+      </targetTask>
+    </subtask>
+    <splittask Id="2ecfb0c3-2e2f-4956-833f-4accaacb12ac" name="Splittask2">
+      <decision>
+        <splittaskReferencesDecision Id="ce8f8719-0ff1-4293-b112-4f0a8f9ffdb2">
+          <decisionMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Not at the 5th floor?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="b59b8cd3-38b8-4071-8a41-da842ade1bf3">
+          <decisionMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/At the 5th floor?" />
+        </splittaskReferencesDecision>
+      </decision>
+    </splittask>
+    <decision Id="681c6ab6-b613-437a-984e-550bfdfef1f3" name="Not at the 5th floor?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="7facc186-30c9-48a5-b85a-15e4f5bd4ba5">
+          <subtaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Go to the 5th floor" />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="e668328b-27d8-4b6c-8f81-b3c85ca7c615" name="At the 5th floor?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="aa6464ff-9ead-4dc8-ab49-4bca8350c8a7">
+          <subtaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/Point your device at the objects to know more about them." />
+        </next>
+      </targetTask>
+    </decision>
+    <subtask Id="c2ee305e-e1e4-4c13-93cc-a0c8752a359e" name="Point your device at the objects to know more about them.">
+      <targetTask>
+        <next Id="39af7fec-7cf4-47ca-84d3-33238cb7174b">
+          <mergeTaskMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/MergeTask1" />
+        </next>
+      </targetTask>
+    </subtask>
+    <endNode Id="cd9b82ae-8f58-433f-a0a8-d05d3a43b82b" name="End Task" />
+    <mergeTask Id="dc327cb9-7f2d-4c03-a63e-9c86252b0636" name="MergeTask1">
+      <targetTask>
+        <next Id="bc53936a-bd9d-46c2-bb60-18f3aa3dd2b9">
+          <endNodeMoniker name="/d7fd7170-17c6-4e9c-ae9b-7ba44cc82b2e/End Task" />
+        </next>
+      </targetTask>
+    </mergeTask>
+  </elements>
+</dSLModel>

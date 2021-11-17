@@ -1,0 +1,8 @@
+C:\Users\menfra\source\repos\AR\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.deps.json
+C:\Users\menfra\source\repos\AR\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.dll
+C:\Users\menfra\source\repos\AR\ClassLibrary1\bin\Debug\netstandard1.4\ClassLibrary1.pdb
+C:\Users\menfra\source\repos\AR\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.csprojAssemblyReference.cache
+C:\Users\menfra\source\repos\AR\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\menfra\source\repos\AR\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.AssemblyInfo.cs
+C:\Users\menfra\source\repos\AR\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.dll
+C:\Users\menfra\source\repos\AR\ClassLibrary1\obj\Debug\netstandard1.4\ClassLibrary1.pdb

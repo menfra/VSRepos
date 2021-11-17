@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6dbbba73-5f75-4566-9926-8c8989f4494f" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="4f0f32e6-fbb4-4875-9ff0-768e23a0271f">
+      <sceneComponent Id="2554699e-1e4e-4d17-b843-23f1d9ecd477" name="LandscapeText" myID="7" x="10" y="10" z="-2" scanTargetID="3" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="a4fc274a-359a-46b2-9cf9-bed0ef59b06a">
+      <sceneComponent Id="404183e9-ac47-414c-b43c-b902029cd53b" myID="13" x="10" y="20" z="-2" scanTargetID="3">
+        <sceneElement>
+          <navigationFlow Id="c4287394-b840-4ca9-8f66-cfbe3ea2cfb0">
+            <sceneComponentMoniker Id="23d5e30c-607e-4acb-bd76-1687833d8df4" />
+          </navigationFlow>
+        </sceneElement>
+      </sceneComponent>
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="f1db11bf-aec8-4444-abf1-16dbf9a2458a">
+      <sceneComponent Id="23d5e30c-607e-4acb-bd76-1687833d8df4" myID="19" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <comment>
+    <sceneHasComment Id="8be58c67-4e07-412b-a71a-458dbb5d7c14">
+      <comment Id="ea7a01f7-52e4-4d21-9241-8101cba5918a" text="This gets shown when the image 'Landscape' is in the visible area">
+        <sceneElement>
+          <commentReferencesSceneElement Id="5d254f14-6570-46d4-ab82-38d1fa0a57e8">
+            <sceneComponentMoniker Id="2554699e-1e4e-4d17-b843-23f1d9ecd477" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+  </comment>
+</scene>

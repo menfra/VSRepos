@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="dbe4f074-ec00-4347-9c55-4e4bb41d1df9" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="037110e1-5197-4139-a9a8-97aa36ff5060">
+      <sceneComponent Id="91ec7a99-a7a0-4e01-ba72-fbebcc3f0d6a" myID="26" x="0" y="0" z="0" scanTargetID="0">
+        <request>
+          <sceneComponentReferencesRequest Id="b9dcfe82-a2c4-48c3-b9cb-4cbb75399b7d">
+            <requestMoniker Id="0c328985-c122-4c62-a2a3-534bb2ce8ca7" />
+          </sceneComponentReferencesRequest>
+        </request>
+      </sceneComponent>
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="5d0215c8-12b4-41c0-92d6-ab1a93e41c20">
+      <sceneComponent Id="bde33ece-8fe4-42ed-8b1d-3dca32afb844" name="End Scene" myID="21" x="0" y="10" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <request>
+    <sceneHasRequest Id="fc74e281-3ef4-41fe-8e16-a2b8c9a4d1a6">
+      <request Id="0c328985-c122-4c62-a2a3-534bb2ce8ca7" myID="25" />
+    </sceneHasRequest>
+  </request>
+</scene>

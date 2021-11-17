@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="39afd113-db26-49cd-8ed0-7598eccd1589" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="b397d70a-c52d-4848-a7d0-832d9a82ac98">
+      <sceneComponent Id="d12de799-1b3b-4a58-97c6-e7901f1e4139" name="RuralText" myID="8" x="10" y="10" z="-2" scanTargetID="4" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="ed53ea4b-0e74-4b24-b229-734dc1472081">
+      <sceneComponent Id="df10f09e-6782-4aa4-bddb-9226e460e68a" myID="13" x="10" y="20" z="-2" scanTargetID="4">
+        <sceneElement>
+          <navigationFlow Id="bea5fd00-31fb-4261-9629-efc9cd9bcf56">
+            <sceneComponentMoniker Id="435c80ed-7fa0-4ebc-8502-da6aafb908bc" />
+          </navigationFlow>
+        </sceneElement>
+      </sceneComponent>
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="a50dba5d-ffe4-4433-b9cb-a9909060ace7">
+      <sceneComponent Id="435c80ed-7fa0-4ebc-8502-da6aafb908bc" myID="20" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <comment>
+    <sceneHasComment Id="09f548af-8949-4c98-aa09-2826fb32e524">
+      <comment Id="cda89a9d-f7f3-432d-9043-f6bdfd98d4b0" text="This gets shown when the image 'Rural landscape' is in the visible area">
+        <sceneElement>
+          <commentReferencesSceneElement Id="f046c391-9131-4a7c-8a97-129344bf9b45">
+            <sceneComponentMoniker Id="d12de799-1b3b-4a58-97c6-e7901f1e4139" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+  </comment>
+</scene>

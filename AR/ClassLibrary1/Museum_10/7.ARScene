@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5cb9b958-9b23-4667-9250-11bda33e22ca" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="a3441dcf-bdf3-4b54-8074-7f27bdfabd34">
+      <sceneComponent Id="ac8594b6-4807-42d7-8df4-cd3ab861e273" name="FinishingButton" myID="12" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="b18dd4c1-0825-406c-b412-e10fde380612">
+      <sceneComponent Id="f37f1630-7555-4de7-9c4f-f14befc794ea" name="EndingMessage" myID="11" x="0" y="10" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

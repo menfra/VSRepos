@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5117cc86-686a-4159-9a4c-aa53f2128286" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="891b8302-4057-4cbe-99dd-10d8e7e6eb13">
+      <sceneComponent Id="26422bd5-836d-4fda-b272-d4e6e448c35d" name="ScanTarget1" myID="0" x="0" y="0" z="0" scanTargetID="2" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="d29d8ba2-ec17-4e2f-87e0-4fb24f631515">
+      <sceneComponent Id="916d558f-6f81-4b03-9c2d-98781e88eb78" name="Button" myID="1" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="f89d5442-d5f9-4775-8a92-1c79d62ed0e4">
+      <sceneComponent Id="00455b07-5e2a-4195-a681-d31d1be54cbb" name="Button" myID="2" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="5b4b04e9-8d40-4be1-8786-1a0ec0424485">
+      <sceneComponent Id="cde32432-dff7-42f7-ab5c-e7e4329d3d8f" name="ScanTarget2" myID="0" x="0" y="0" z="0" scanTargetID="3" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="0bf6f98e-4f0f-47ef-955f-f5d607436356">
+      <sceneComponent Id="03dfe3a1-d65f-4aa5-aef8-6a20751accee" name="ScanTarget3" myID="0" x="0" y="0" z="0" scanTargetID="4" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

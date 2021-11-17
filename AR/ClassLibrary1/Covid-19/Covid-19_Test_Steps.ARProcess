@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="745e526b-62f1-4330-83fb-873c181288ab" xmlns="http://schemas.microsoft.com/dsltools/ARProcess">
+  <elements>
+    <fulltask Id="57ee3908-95f0-4d36-865a-6ba00b24c02a" name="Start Covid-19 Testing process.">
+      <targetTask>
+        <next Id="31ba3a5a-a91c-476f-bbf6-8929dbcc4f12">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Conduct self screening." />
+        </next>
+      </targetTask>
+    </fulltask>
+    <subtask Id="23e5ade2-74b4-49bc-92a1-67a864502805" name="Conduct self screening.">
+      <targetTask>
+        <next Id="38d72517-1535-46be-8577-b93366a4a70d">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Call health Links." />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="049487e5-8f25-4287-8807-f8739738938f">
+          <sceneMoniker Id="d65db465-3f91-416c-bf34-28832058e5eb" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="3f61249f-fcb7-47e6-9e90-2a0ff77e7529">
+          <conditionMoniker Id="8e949df4-7875-4ffb-9969-16c0ecf6bfef" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="df20bbf3-4f6f-4f93-8ab8-031dba648651" name="Call health Links.">
+      <targetTask>
+        <next Id="65f0d7ac-64b6-4dab-8661-ace8b1cf77d0">
+          <splittaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Splittask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="ee46cacf-dd08-4cdb-96f7-06fd7fe22695">
+          <sceneMoniker Id="16ab4c56-82dd-4699-8733-1c973cefb6f7" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="a19b30a6-e181-4f28-a42d-4eff84de1281">
+          <conditionMoniker Id="da3b0711-743e-4bbf-b5c2-ac21d61428b2" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <splittask Id="3f97b373-31f3-4ffa-b2e6-b70487598813" name="Splittask1">
+      <decision>
+        <splittaskReferencesDecision Id="69b9062c-5f51-4e1d-8181-51b01373c97d">
+          <decisionMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Needs to be tested?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="65c15dde-c1d8-4a73-99a4-08ac8276c76f">
+          <decisionMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/No need to be tested?" />
+        </splittaskReferencesDecision>
+      </decision>
+    </splittask>
+    <decision Id="01508923-8ac3-4892-b094-47736a424f45" name="Needs to be tested?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="b11a7f0b-77e3-4012-8ff9-eaaba57f99f7">
+          <parallelTaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/ParallelTask1" />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="7c3e20d9-5ef6-4d3c-9f7a-69a1ea1a84d4" name="No need to be tested?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="2e26062c-b002-4335-bd6e-1351f3325b08">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Stay at Home." />
+        </next>
+      </targetTask>
+    </decision>
+    <subtask Id="06795c1d-0270-4686-99f5-6dca6f9c632e" name="Stay at Home.">
+      <targetTask>
+        <next Id="bf02affa-9da7-412e-bca1-d17ab7aa5762">
+          <endNodeMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/End task." />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="f7d5c929-c06a-4db2-a693-d15fa2dcb5f8">
+          <sceneMoniker Id="ee9adf4b-0e7e-47e1-a880-a38200221fc0" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="d803a22a-dd93-419b-a94d-7b34cf5eee7a">
+          <conditionMoniker Id="e2210ce4-0a44-426c-9e92-b716a52cfe77" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <parallelTask Id="687cebd1-cb96-46d1-b228-48fc5bac9dd1" name="ParallelTask1">
+      <targetTask>
+        <next Id="13fef336-9b50-4b98-87d3-042d05ae9da9">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Receive location of test office." />
+        </next>
+        <next Id="4707db06-1486-44fe-b552-7291e92840bc">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Make an appointment for test date." />
+        </next>
+      </targetTask>
+    </parallelTask>
+    <subtask Id="3ab6cf58-de3d-4ef1-8130-aedf6cd34c4f" name="Receive location of test office.">
+      <targetTask>
+        <next Id="f00972d1-770e-4ded-8092-83f582d8463f">
+          <parallelMergeTaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="fe75613f-472b-4a75-a210-2b6e181cd86e">
+          <sceneMoniker Id="bd4c134d-a86e-462d-a305-95876a606254" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="365f9329-1ba8-4fcd-b5e5-79d003bfb201">
+          <conditionMoniker Id="f747b0e1-9027-4cc8-b9de-1727b460ebfd" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="27e1ab46-dd1b-405e-89d5-07ba5fe79ec4" name="Make an appointment for test date.">
+      <targetTask>
+        <next Id="b529879e-c2c8-4789-8b8d-9867ab23b8e5">
+          <parallelMergeTaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="92384b75-021d-4154-82f6-e6c7abb2166a">
+          <sceneMoniker Id="658d0228-a0f6-49a5-9c6f-5d13ec37c6ce" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="ded90512-0f6b-466e-aa12-03ff53043e6e">
+          <conditionMoniker Id="a22c6add-cc74-4f89-984b-128bbc966858" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <parallelMergeTask Id="05304d95-d5e5-4bc1-8f22-0781c7967f39" name="ParallelMergeTask1">
+      <targetTask>
+        <next Id="933953fb-c043-4e63-85d9-12c74a5688ca">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Go to test office." />
+        </next>
+      </targetTask>
+    </parallelMergeTask>
+    <subtask Id="2ffa86ea-70d1-45fe-b29e-e01067703e4e" name="Go to test office.">
+      <targetTask>
+        <next Id="1234fa3b-b658-4ecb-8097-703f4fd1fac8">
+          <splittaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Splittask2" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="a643a2a8-4cc3-49bd-9b5d-8a4cd2b1be87">
+          <sceneMoniker Id="c0b8a336-238b-459e-a55f-218669ed0af3" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="0fde6d63-9870-4ab6-871c-877707136830">
+          <conditionMoniker Id="7dbccb5b-978f-4b85-920c-5bc7b07518d5" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <splittask Id="986b533d-9495-4cfa-af4c-96d4f6e5f70c" name="Splittask2">
+      <decision>
+        <splittaskReferencesDecision Id="715060a5-a183-4975-b7e1-ac15231b88cd">
+          <decisionMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/If not meeting test creteria?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="da3646f0-0acd-458a-ac85-b21e12d2d48b">
+          <decisionMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Meeting test creteria?" />
+        </splittaskReferencesDecision>
+      </decision>
+    </splittask>
+    <decision Id="ef9060b9-371b-4b75-a9cb-9426e9731693" name="If not meeting test creteria?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="cf469fcf-fdb5-4056-926f-dd253c20851d">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Go back and stay home." />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="3a8dccd2-b50b-4268-8bd2-68d0b3d50b42" name="Meeting test creteria?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="83f7184f-5e26-4c5e-84ad-f0c4eb52c9f0">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Samples are taken." />
+        </next>
+      </targetTask>
+    </decision>
+    <subtask Id="5c985def-7de7-4865-831c-35a3939d3155" name="Go back and stay home.">
+      <targetTask>
+        <next Id="4f8a5aea-21c4-493a-9c6a-52de0e80bc2b">
+          <endNodeMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/End task." />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="b32605f3-7a12-4dc6-80db-ec195a93eb58">
+          <sceneMoniker Id="8aff60d4-2928-4046-b472-3c6e4b754349" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="63cb6fe3-6913-4faa-bef1-3cf58fefa64a">
+          <conditionMoniker Id="98c3ffb8-948e-4489-ad9d-af2518b51faf" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="f7161b54-c264-439d-bee7-380f7ce1a293" name="Samples are taken.">
+      <targetTask>
+        <next Id="c2d5f30f-4ab9-413f-8ebc-dbeaef20d368">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Brief assessment for 20mins" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="23854c7b-9ffb-4509-b46c-7e717ffad78b">
+          <sceneMoniker Id="4e01a663-6bfe-40cc-b8ff-ec39d321a541" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="cd3159be-4c88-4297-b45f-8a00f9ac97a6">
+          <conditionMoniker Id="40235c2c-9e86-4c8a-8233-c52ed63e3033" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="c28b8383-4e9a-4657-8d71-f10534d4ae4d" name="Brief assessment for 20mins">
+      <targetTask>
+        <next Id="8db8ff1a-804d-4ec9-90e6-bdb4a9c53e83">
+          <subtaskMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/Go back and self isolate." />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="e8e65c52-baf3-4b2d-99bb-973f065875f2">
+          <sceneMoniker Id="358eb8cb-390a-4358-9e3a-d6b38d436eff" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="2c6c57d6-7464-48e3-9472-a49544c000fe">
+          <conditionMoniker Id="53f83a6e-0d4c-464b-ac08-78e7c4bc9d37" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="61b69f0e-bbdf-498b-ae6c-f04c0bf4598b" name="Go back and self isolate.">
+      <targetTask>
+        <next Id="eb9b026d-adb8-4f66-9046-919342e8ef6b">
+          <endNodeMoniker name="/745e526b-62f1-4330-83fb-873c181288ab/End task." />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="525949fc-94c4-4fbb-9cb6-15d2ac8969de">
+          <sceneMoniker Id="0116cf8a-be10-4b3b-9022-be1dd2c81c19" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="0136dd90-fa1d-4161-8988-41192a315a4c">
+          <conditionMoniker Id="fef4194d-61b4-4024-92ba-2e234dbebcf4" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <endNode Id="e05cdf2f-f296-410a-abf6-3fb21e9e11e5" name="End task." />
+  </elements>
+  <scene>
+    <dSLModelHasScene Id="1709d64c-1f28-43d5-b628-99140ad5469a">
+      <scene Id="d65db465-3f91-416c-bf34-28832058e5eb" myID="0" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="b2965d1c-8f36-4133-9bf3-950b2398c2f0">
+      <scene Id="bd4c134d-a86e-462d-a305-95876a606254" myID="1" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="920f17fa-6a5e-4af1-a3b2-a641eb7d7e9f">
+      <scene Id="658d0228-a0f6-49a5-9c6f-5d13ec37c6ce" myID="2" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="bb0126ac-d689-4863-9d6a-3d35c890acd0">
+      <scene Id="16ab4c56-82dd-4699-8733-1c973cefb6f7" myID="1" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="0973d7b0-9c7c-4ced-980c-81a1c666ef61">
+      <scene Id="c0b8a336-238b-459e-a55f-218669ed0af3" myID="3" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="a04efbae-4d72-4f55-9ed7-09e867c90900">
+      <scene Id="4e01a663-6bfe-40cc-b8ff-ec39d321a541" myID="1" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="ad5a6a96-0a2a-4f6d-860f-062ff206bed2">
+      <scene Id="358eb8cb-390a-4358-9e3a-d6b38d436eff" myID="1" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="08af2464-b545-4c8b-8c7b-b893f2d4f723">
+      <scene Id="0116cf8a-be10-4b3b-9022-be1dd2c81c19" myID="4" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="cbd60ba0-b0ec-4566-9d39-ae50ebabf876">
+      <scene Id="8aff60d4-2928-4046-b472-3c6e4b754349" myID="0" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="baa8dfb2-26bf-41e8-9b10-997c837665ba">
+      <scene Id="ee9adf4b-0e7e-47e1-a880-a38200221fc0" myID="4" />
+    </dSLModelHasScene>
+  </scene>
+  <condition>
+    <dSLModelHasCondition Id="0480d5d8-6e46-4614-a93d-efb3335957ce">
+      <condition Id="8e949df4-7875-4ffb-9969-16c0ecf6bfef" type="scan" scanTarget="3" dynamic="false" name="FiducialMark1" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="5327a881-3ba7-46a9-a0ab-9358e333bcbe">
+      <condition Id="f747b0e1-9027-4cc8-b9de-1727b460ebfd" type="user" scanTarget="1" dynamic="false" name="click finish" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="ab49bcfd-3863-49e2-8ec4-a2bccf24987d">
+      <condition Id="a22c6add-cc74-4f89-984b-128bbc966858" type="user" scanTarget="2" dynamic="false" name="Click to finish" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="18475c18-8e13-4409-8662-02310056ddfb">
+      <condition Id="da3b0711-743e-4bbf-b5c2-ac21d61428b2" type="user" scanTarget="1" dynamic="false" name="Click to finish" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="dba47f37-a127-4448-9f74-5a257b8403e9">
+      <condition Id="7dbccb5b-978f-4b85-920c-5bc7b07518d5" type="scan" scanTarget="3" dynamic="false" name="FiducialMark2" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="62cedafe-b100-4389-acc4-3366d2e2dfc4">
+      <condition Id="40235c2c-9e86-4c8a-8233-c52ed63e3033" type="user" scanTarget="1" dynamic="false" name="Click to finish" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="7b04ff99-762b-4463-909b-033da0a846d5">
+      <condition Id="53f83a6e-0d4c-464b-ac08-78e7c4bc9d37" type="user" scanTarget="1" dynamic="false" name="Click to finish" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="65b3245a-a185-431a-b37c-62840cc6890b">
+      <condition Id="fef4194d-61b4-4024-92ba-2e234dbebcf4" type="scan" scanTarget="4" dynamic="false" name="FiducialMark3" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="3fa5c22c-bed2-4109-9baa-d854c7a8e5e3">
+      <condition Id="98c3ffb8-948e-4489-ad9d-af2518b51faf" type="scan" scanTarget="4" dynamic="false" name="FiducialMark3" />
+    </dSLModelHasCondition>
+    <dSLModelHasCondition Id="81fda76a-b7ee-45af-854b-9dd4362a52e0">
+      <condition Id="e2210ce4-0a44-426c-9e92-b716a52cfe77" type="scan" scanTarget="4" dynamic="false" name="FiducialMark3" />
+    </dSLModelHasCondition>
+  </condition>
+</dSLModel>

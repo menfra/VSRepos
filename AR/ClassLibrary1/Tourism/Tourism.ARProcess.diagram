@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRProcessDiagram dslVersion="1.0.0.0" Id="bf91b08b-74ea-42f8-b194-45f1246294cb" absoluteBounds="0, 0, 11, 8.5" name="Tourism">
+  <dSLModelMoniker Id="ceaf8cbf-a49d-4be9-b536-dc96fecd46ce" />
+  <nestedChildShapes>
+    <fulltaskShape Id="b2ada9b9-888d-4527-8194-478dda199678" absoluteBounds="0.625, 2.75, 0.375, 0.375">
+      <fulltaskMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/Welcome to the tourist center." />
+    </fulltaskShape>
+    <splitShape Id="0f3f62ac-ce9e-4737-99be-a1a0dc6ce7f9" absoluteBounds="1.875, 2.5, 1, 1">
+      <splittaskMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/Splittask1" />
+    </splitShape>
+    <connector9 Id="9b6ecf7f-4da3-494f-8bf9-ed0098be0c85" edgePoints="[(1 : 2.9375); (1.875 : 2.9375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <nextMoniker Id="c076e3c8-a91b-4d74-92d7-ea74a0cc927f" />
+      <nodes>
+        <fulltaskShapeMoniker Id="b2ada9b9-888d-4527-8194-478dda199678" />
+        <splitShapeMoniker Id="0f3f62ac-ce9e-4737-99be-a1a0dc6ce7f9" />
+      </nodes>
+    </connector9>
+    <geometryShape1 Id="9573c92c-2662-4eb0-872b-8baa3a05baff" absoluteBounds="3.375, 1.25, 1.5, 1">
+      <decisionMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/I want AR guided tour?" />
+    </geometryShape1>
+    <geometryShape1 Id="5d2fa900-c619-463b-b328-396586872e7d" absoluteBounds="3.5, 3.875, 1.5, 1">
+      <decisionMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/I want a normal tour?" />
+    </geometryShape1>
+    <connector4 Id="02ec664f-1023-4a71-868d-8b10263cb8b0" edgePoints="[(2.375 : 2.5); (2.375 : 1.75); (3.375 : 1.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <splittaskReferencesDecisionMoniker Id="3c588535-5d3a-453b-8a9c-ba949c611f7d" />
+      <nodes>
+        <splitShapeMoniker Id="0f3f62ac-ce9e-4737-99be-a1a0dc6ce7f9" />
+        <geometryShape1Moniker Id="9573c92c-2662-4eb0-872b-8baa3a05baff" />
+      </nodes>
+    </connector4>
+    <connector4 Id="63b5ab17-d1f1-4be1-a339-ddff81cb37a5" edgePoints="[(2.375 : 3.5); (2.375 : 4.375); (3.5 : 4.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <splittaskReferencesDecisionMoniker Id="53aa152e-a465-4cb3-b1d9-38ef8b8235ba" />
+      <nodes>
+        <splitShapeMoniker Id="0f3f62ac-ce9e-4737-99be-a1a0dc6ce7f9" />
+        <geometryShape1Moniker Id="5d2fa900-c619-463b-b328-396586872e7d" />
+      </nodes>
+    </connector4>
+    <subtaskShape Id="022c0842-f290-40dc-b597-2e33fd45987f" absoluteBounds="6.125, 1.25, 1.5, 1">
+      <subtaskMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/Follow the virtual anchors." />
+    </subtaskShape>
+    <connector9 Id="a0a9317d-c486-4533-bf75-0efa26f25c51" edgePoints="[(4.875 : 1.75); (6.125 : 1.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <nextMoniker Id="576156f9-be62-46d3-a086-390056cad6b3" />
+      <nodes>
+        <geometryShape1Moniker Id="9573c92c-2662-4eb0-872b-8baa3a05baff" />
+        <subtaskShapeMoniker Id="022c0842-f290-40dc-b597-2e33fd45987f" />
+      </nodes>
+    </connector9>
+    <endNodeShape Id="269eb743-f65b-4486-9a28-0e64d2668d82" absoluteBounds="6.75, 4.125, 0.25, 0.25">
+      <endNodeMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/End of task." />
+    </endNodeShape>
+    <connector9 Id="90e7ea8a-022f-4f88-bfcb-c7ae7725a93d" edgePoints="[(6.875 : 2.25); (6.875 : 4.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <nextMoniker Id="dbdadab8-aaee-4d1c-ad7b-7598137e41ce" />
+      <nodes>
+        <subtaskShapeMoniker Id="022c0842-f290-40dc-b597-2e33fd45987f" />
+        <endNodeShapeMoniker Id="269eb743-f65b-4486-9a28-0e64d2668d82" />
+      </nodes>
+    </connector9>
+    <connector9 Id="f2961a29-aa6c-4952-9aa7-8ffdf0027f93" edgePoints="[(5 : 4.25); (6.75 : 4.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <nextMoniker Id="d5bcca2a-185c-4358-ac4a-aea1c18956e4" />
+      <nodes>
+        <geometryShape1Moniker Id="5d2fa900-c619-463b-b328-396586872e7d" />
+        <endNodeShapeMoniker Id="269eb743-f65b-4486-9a28-0e64d2668d82" />
+      </nodes>
+    </connector9>
+  </nestedChildShapes>
+</aRProcessDiagram>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRDataDiagram dslVersion="1.0.0.0" Id="4fde2e8b-292a-4971-99f8-3e3a71654aa9" absoluteBounds="0, 0, 12.5, 8.5" name="MuseumCaseStudy">
+  <dataModelMoniker Id="f7123774-a80c-49cd-8842-9e55a1aa5b5a" />
+  <nestedChildShapes>
+    <networkHandlerShape Id="0a5af2bf-6259-4032-accf-cb0d726e1c28" absoluteBounds="0.5, 0.625, 1.5, 1">
+      <networkHandlerMoniker Id="cdf43e5b-79b7-4e26-8275-f4e7842175c8" />
+    </networkHandlerShape>
+    <buttonShape Id="62b27dc1-6d9f-4de3-9f12-7828f869eecf" absoluteBounds="5.625, 1.25, 1.5, 1">
+      <buttonMoniker Id="8c348e21-4157-4fd3-883b-5de6e7641f48" />
+    </buttonShape>
+    <scanTargetShape Id="89944e1f-a6f6-44e3-86f1-4df62c97813b" absoluteBounds="8, 1.25, 1.5, 1">
+      <scanTargetMoniker Id="c628ece3-97d4-4eeb-9183-02d76124201b" />
+    </scanTargetShape>
+    <scanTargetShape Id="7ab92d6d-073a-405d-8732-6a7fa102b9f6" absoluteBounds="8, 2.75, 1.5, 1">
+      <scanTargetMoniker Id="f5144e71-1e42-4ba6-90d3-ec4d1ee303b4" />
+    </scanTargetShape>
+    <scanTargetShape Id="cd705c3b-6a16-47ee-9654-6e564cd29d79" absoluteBounds="8, 5.5, 1.5, 1">
+      <scanTargetMoniker Id="186d5c1b-d6ce-4ac1-baa0-3b26d7b3e781" />
+    </scanTargetShape>
+    <scanTargetShape Id="0137c644-131c-4c4b-858c-a729035239ea" absoluteBounds="8, 4.125, 1.5, 1">
+      <scanTargetMoniker Id="eacebc6c-9db4-4755-8307-b05738ef4672" />
+    </scanTargetShape>
+    <textFieldShape Id="561d4d5c-567c-4a17-be84-8985a3d921b6" absoluteBounds="10.75, 1.25, 1.5, 1">
+      <textFieldMoniker Id="09e42a9c-5bb2-476e-a9d1-1fa0fc99bc47" />
+    </textFieldShape>
+    <textFieldShape Id="40638c1b-83f3-407b-94e1-e0321177ed20" absoluteBounds="10.75, 2.75, 1.5, 1">
+      <textFieldMoniker Id="9b3f275b-3608-4acf-a7fa-de535c629de0" />
+    </textFieldShape>
+    <textFieldShape Id="25ebd12b-f04e-48d9-a4e7-c77eacef7b9d" absoluteBounds="10.75, 4.125, 1.5, 1">
+      <textFieldMoniker Id="9d2cc37f-f0f4-4102-a046-df6ebbe24d05" />
+    </textFieldShape>
+    <textFieldShape Id="15c9d090-60dc-41c3-b50d-15a4cc7e4e34" absoluteBounds="10.75, 5.5, 1.5, 1">
+      <textFieldMoniker Id="7c93be46-c837-4ae2-b258-68dc5ea96f80" />
+    </textFieldShape>
+  </nestedChildShapes>
+</aRDataDiagram>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRDataDiagram dslVersion="1.0.0.0" Id="4fde2e8b-292a-4971-99f8-3e3a71654aa9" absoluteBounds="0, 0, 17.5, 8.75" name="MuseumCaseStudy">
+  <dataModelMoniker Id="f7123774-a80c-49cd-8842-9e55a1aa5b5a" />
+  <nestedChildShapes>
+    <networkHandlerShape Id="0a5af2bf-6259-4032-accf-cb0d726e1c28" absoluteBounds="0.5, 0.625, 1.5, 1" fillColor="DarkOliveGreen">
+      <networkHandlerMoniker Id="cdf43e5b-79b7-4e26-8275-f4e7842175c8" />
+    </networkHandlerShape>
+    <buttonShape Id="62b27dc1-6d9f-4de3-9f12-7828f869eecf" absoluteBounds="3.75, 1.25, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="8c348e21-4157-4fd3-883b-5de6e7641f48" />
+    </buttonShape>
+    <scanTargetShape Id="89944e1f-a6f6-44e3-86f1-4df62c97813b" absoluteBounds="10.125, 1.25, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="c628ece3-97d4-4eeb-9183-02d76124201b" />
+    </scanTargetShape>
+    <scanTargetShape Id="7ab92d6d-073a-405d-8732-6a7fa102b9f6" absoluteBounds="10.125, 2.75, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="f5144e71-1e42-4ba6-90d3-ec4d1ee303b4" />
+    </scanTargetShape>
+    <scanTargetShape Id="cd705c3b-6a16-47ee-9654-6e564cd29d79" absoluteBounds="10.125, 5.5, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="186d5c1b-d6ce-4ac1-baa0-3b26d7b3e781" />
+    </scanTargetShape>
+    <scanTargetShape Id="0137c644-131c-4c4b-858c-a729035239ea" absoluteBounds="10.125, 4.125, 1.5, 1" fillColor="LightGray">
+      <scanTargetMoniker Id="eacebc6c-9db4-4755-8307-b05738ef4672" />
+    </scanTargetShape>
+    <textFieldShape Id="561d4d5c-567c-4a17-be84-8985a3d921b6" absoluteBounds="12.875, 1.25, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="09e42a9c-5bb2-476e-a9d1-1fa0fc99bc47" />
+    </textFieldShape>
+    <textFieldShape Id="40638c1b-83f3-407b-94e1-e0321177ed20" absoluteBounds="12.875, 2.75, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="9b3f275b-3608-4acf-a7fa-de535c629de0" />
+    </textFieldShape>
+    <textFieldShape Id="25ebd12b-f04e-48d9-a4e7-c77eacef7b9d" absoluteBounds="12.875, 4.125, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="9d2cc37f-f0f4-4102-a046-df6ebbe24d05" />
+    </textFieldShape>
+    <textFieldShape Id="15c9d090-60dc-41c3-b50d-15a4cc7e4e34" absoluteBounds="12.875, 5.5, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="7c93be46-c837-4ae2-b258-68dc5ea96f80" />
+    </textFieldShape>
+    <textFieldShape Id="82a0ccdc-4020-4359-ade1-fcecd8617101" absoluteBounds="15.75, 1.25, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="15add32d-bd3b-401c-95d9-3e1201b23b9a" />
+    </textFieldShape>
+    <textFieldShape Id="cbc817e6-c80f-40e3-ba43-05ee1caf9c8a" absoluteBounds="15.75, 2.75, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="6cd83f51-08bf-4a7b-b8ce-75dfd7787167" />
+    </textFieldShape>
+    <textFieldShape Id="50a41af9-2f6f-4c4d-a4b0-c87f57820d2c" absoluteBounds="15.75, 4.125, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="e4fb4e55-30a7-47e8-a125-c3e03fd4f642" />
+    </textFieldShape>
+    <buttonShape Id="792883a8-4f14-42be-a100-3ab373da4eaf" absoluteBounds="3.75, 2.75, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="ea191832-5986-4593-9359-7d832900dae0" />
+    </buttonShape>
+    <buttonShape Id="7e08371b-ed5f-4f93-8ee8-48058ad27a29" absoluteBounds="7.875, 1.25, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="e43a44bc-2224-4f47-bdc4-43da56ca8ca4" />
+    </buttonShape>
+    <audioShape Id="c7d44adc-12fd-47ff-81ef-dc6a4d9e5b1a" absoluteBounds="5.875, 1.25, 1.5, 1" fillColor="White">
+      <audioMoniker Id="3cc2fe89-9fe1-418a-983b-b60a4126b56d" />
+    </audioShape>
+    <audioShape Id="1b3c87ed-5fdd-45d7-a26d-531da9342aea" absoluteBounds="5.875, 2.75, 1.5, 1" fillColor="White">
+      <audioMoniker Id="3b9f0318-7c44-4f0e-a79e-42c0d66a6241" />
+    </audioShape>
+    <audioShape Id="a91ca599-9da4-454f-b04e-8eb33dfd723e" absoluteBounds="5.875, 4.125, 1.5, 1" fillColor="White">
+      <audioMoniker Id="1a72675e-b897-45ce-a8a3-2ae70d140e35" />
+    </audioShape>
+    <audioShape Id="2583f2ed-8fbf-4a3e-b00a-138c1fee5eed" absoluteBounds="5.875, 5.5, 1.5, 1" fillColor="White">
+      <audioMoniker Id="fe348332-b90d-4a24-923b-204ab50c278a" />
+    </audioShape>
+    <buttonShape Id="5c60e6f7-2636-4e3d-9634-c6743953533a" absoluteBounds="3.75, 4.125, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="ccef536a-b088-4d6d-bf10-7208a0a01a22" />
+    </buttonShape>
+    <buttonShape Id="15cc4f55-4d73-4bd7-b43f-a9284345883d" absoluteBounds="1.25, 7.5, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="e1b19ec8-a093-4cb5-99ce-30c037052db6" />
+    </buttonShape>
+    <buttonShape Id="ae94ee23-f64e-45dc-b894-478e1271350a" absoluteBounds="2.875, 7.5, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="677af3c7-8fd7-4687-96b0-73d7a9c9aa03" />
+    </buttonShape>
+    <buttonShape Id="9c499ee0-3425-4292-a573-c1297df26c36" absoluteBounds="4.5, 7.5, 1.5, 1" fillColor="LightGray">
+      <buttonMoniker Id="190506e3-2012-40e0-9517-bbcb11b64720" />
+    </buttonShape>
+    <httpAdapterShape Id="85ca5681-cdfc-49e8-a150-0c2dfa1fbea8" absoluteBounds="0.5, 2.75, 1.5, 1" fillColor="DarkOliveGreen">
+      <httpAdapterMoniker Id="73a3dffa-3db0-4e8a-affe-2d046077e889" />
+    </httpAdapterShape>
+    <connector2 Id="81ac57af-46a3-474c-8ecb-c1e628421fae" edgePoints="[(1.25 : 1.625); (1.25 : 2.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <networkHandlerReferencesNetworkAdapterMoniker Id="8901e50a-d21d-4c8c-b60d-63d3cb109d34" />
+      <nodes>
+        <networkHandlerShapeMoniker Id="0a5af2bf-6259-4032-accf-cb0d726e1c28" />
+        <httpAdapterShapeMoniker Id="85ca5681-cdfc-49e8-a150-0c2dfa1fbea8" />
+      </nodes>
+    </connector2>
+    <requestShape Id="8c2bd6c5-8df2-4a69-84da-e01b9c6df81c" absoluteBounds="0.5, 4.5, 1.5, 1" fillColor="DarkOliveGreen">
+      <requestMoniker Id="f58614b8-0155-4877-8d35-d79b11eb05a9" />
+    </requestShape>
+    <connector1 Id="4fdc29a9-d0bb-4133-a53f-31c7f6ebc43e" edgePoints="[(1.25 : 3.75); (1.25 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <networkAdapterReferencesRequestMoniker Id="210feb02-c7c6-40fb-a217-b412c531c3f8" />
+      <nodes>
+        <httpAdapterShapeMoniker Id="85ca5681-cdfc-49e8-a150-0c2dfa1fbea8" />
+        <requestShapeMoniker Id="8c2bd6c5-8df2-4a69-84da-e01b9c6df81c" />
+      </nodes>
+    </connector1>
+    <textFieldShape Id="2c51fd98-dc27-4b1c-9595-d5083c9dfb50" absoluteBounds="7.5, 7.5, 1.5, 1" fillColor="LightGray">
+      <textFieldMoniker Id="d8bc6e1e-27f4-450d-9e99-66de70b2d1ec" />
+    </textFieldShape>
+  </nestedChildShapes>
+</aRDataDiagram>

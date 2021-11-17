@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRProcessDiagram dslVersion="1.0.0.0" Id="7fcec9c8-7e0d-44a3-9127-12314fbacffd" absoluteBounds="0, 0, 16.125, 8.5" name="ObjectFinder">
+  <dSLModelMoniker Id="8f36a574-93b4-4e99-b360-fa17fc5a930d" />
+  <nestedChildShapes>
+    <fulltaskShape Id="176365b3-3749-4cc6-908a-ff07931844e8" absoluteBounds="1.25, 2.875, 0.375, 0.375">
+      <fulltaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Start of Object finding task." />
+    </fulltaskShape>
+    <splitShape Id="500a33b8-a4ef-4078-bd7d-1d934fe9491b" absoluteBounds="4.125, 2.625, 1, 1">
+      <splittaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Splittask1" />
+    </splitShape>
+    <geometryShape1 Id="95a44197-d6b7-411c-89d1-520f3c1fb002" absoluteBounds="5.375, 1.5, 1.5, 1">
+      <decisionMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Inside the task room?" />
+    </geometryShape1>
+    <geometryShape1 Id="1d277cfa-a81f-4144-b49a-df25621faf25" absoluteBounds="5.375, 3.875, 1.5, 1">
+      <decisionMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Not inside the task room?" />
+    </geometryShape1>
+    <subtaskShape Id="920f49ea-bf9a-4659-852a-5c77646fec24" absoluteBounds="2.125, 2.625, 1.5, 1">
+      <subtaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Go to the task room." />
+    </subtaskShape>
+    <connector9 Id="7add91e6-8bd8-4958-98fc-23450ffdc167" edgePoints="[(1.625 : 3.0625); (2.125 : 3.0625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="fa3724b7-d726-41ca-bf17-7fd39ae02944" />
+      <nodes>
+        <fulltaskShapeMoniker Id="176365b3-3749-4cc6-908a-ff07931844e8" />
+        <subtaskShapeMoniker Id="920f49ea-bf9a-4659-852a-5c77646fec24" />
+      </nodes>
+    </connector9>
+    <connector9 Id="8f8cce3a-1ec5-4426-a88e-d5e46462ed45" edgePoints="[(3.625 : 3.125); (4.125 : 3.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="8f62b3e4-09f6-44a3-827b-8fa4e7f7d031" />
+      <nodes>
+        <subtaskShapeMoniker Id="920f49ea-bf9a-4659-852a-5c77646fec24" />
+        <splitShapeMoniker Id="500a33b8-a4ef-4078-bd7d-1d934fe9491b" />
+      </nodes>
+    </connector9>
+    <connector4 Id="7cd62307-3640-4429-a5fd-0547b28c762b" edgePoints="[(4.625 : 2.625); (4.625 : 2); (5.375 : 2)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <splittaskReferencesDecisionMoniker Id="27ef7f76-144c-4af3-92f5-6cbac441d48e" />
+      <nodes>
+        <splitShapeMoniker Id="500a33b8-a4ef-4078-bd7d-1d934fe9491b" />
+        <geometryShape1Moniker Id="95a44197-d6b7-411c-89d1-520f3c1fb002" />
+      </nodes>
+    </connector4>
+    <connector4 Id="e4e06a52-772b-4f10-a196-f73fc47dec1e" edgePoints="[(4.625 : 3.625); (4.625 : 4.375); (5.375 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <splittaskReferencesDecisionMoniker Id="9bf7a4e6-68d7-4173-b4ce-ee99892e2c8b" />
+      <nodes>
+        <splitShapeMoniker Id="500a33b8-a4ef-4078-bd7d-1d934fe9491b" />
+        <geometryShape1Moniker Id="1d277cfa-a81f-4144-b49a-df25621faf25" />
+      </nodes>
+    </connector4>
+    <connector9 Id="2e5cf881-b4e8-4486-bf56-b03e543dc58e" edgePoints="[(5.97685185185185 : 4.875); (5.97685185185185 : 5.25); (2.875 : 5.25); (2.875 : 3.625)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="82b355ef-e697-4d88-877b-0b12516c0b88" />
+      <nodes>
+        <geometryShape1Moniker Id="1d277cfa-a81f-4144-b49a-df25621faf25" />
+        <subtaskShapeMoniker Id="920f49ea-bf9a-4659-852a-5c77646fec24" />
+      </nodes>
+    </connector9>
+    <subtaskShape Id="8c7c1e53-ed94-4276-ac99-11d8083d9c67" absoluteBounds="9.125, 0.75, 1.5, 0.625">
+      <subtaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Find the Laptop." />
+    </subtaskShape>
+    <subtaskShape Id="7a47f2ae-64cf-414c-83cb-3db8d258532c" absoluteBounds="13.125, 1.375, 1.5, 1">
+      <subtaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Find the Mouse." />
+    </subtaskShape>
+    <parallelShape Id="739742f2-4b6d-45c9-92af-cbe14059ec20" absoluteBounds="7.75, 1.5, 1, 1">
+      <parallelTaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/ParallelTask1" />
+    </parallelShape>
+    <connector9 Id="3c62823d-a2e3-4692-985a-8f88d1cccbf3" edgePoints="[(6.875 : 2); (7.75 : 2)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="52e272ce-c3c3-4030-9978-22fe01796b1a" />
+      <nodes>
+        <geometryShape1Moniker Id="95a44197-d6b7-411c-89d1-520f3c1fb002" />
+        <parallelShapeMoniker Id="739742f2-4b6d-45c9-92af-cbe14059ec20" />
+      </nodes>
+    </connector9>
+    <subtaskShape Id="b1a1474c-4f7c-4307-b559-08d97f211b38" absoluteBounds="9.125, 2.5, 1.5, 0.625">
+      <subtaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/Start the Laptop" />
+    </subtaskShape>
+    <connector9 Id="ef8d07c5-546e-4a8b-b4bb-84b3a80d1200" edgePoints="[(8.25 : 1.5); (8.25 : 1.0625); (9.125 : 1.0625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="3aebc533-dd06-49e8-8114-d6c9d2022228" />
+      <nodes>
+        <parallelShapeMoniker Id="739742f2-4b6d-45c9-92af-cbe14059ec20" />
+        <subtaskShapeMoniker Id="8c7c1e53-ed94-4276-ac99-11d8083d9c67" />
+      </nodes>
+    </connector9>
+    <connector9 Id="6e696276-176a-4832-b052-b4372e0ac8e4" edgePoints="[(8.25 : 2.5); (8.25 : 2.84375); (9.125 : 2.84375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="b4a51d51-36e4-4289-9904-628dd24b6181" />
+      <nodes>
+        <parallelShapeMoniker Id="739742f2-4b6d-45c9-92af-cbe14059ec20" />
+        <subtaskShapeMoniker Id="b1a1474c-4f7c-4307-b559-08d97f211b38" />
+      </nodes>
+    </connector9>
+    <parallelMergeShape Id="f6fa427e-fd56-41dc-b35c-b359384e4c45" absoluteBounds="11.5, 1.375, 1, 1">
+      <parallelMergeTaskMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/ParallelMergeTask1" />
+    </parallelMergeShape>
+    <connector9 Id="6949ffef-863b-483f-aeeb-31062718a8cd" edgePoints="[(10.625 : 1.03125); (12 : 1.03125); (12 : 1.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="e016fbb7-4cf9-4e41-be7f-a604867b0242" />
+      <nodes>
+        <subtaskShapeMoniker Id="8c7c1e53-ed94-4276-ac99-11d8083d9c67" />
+        <parallelMergeShapeMoniker Id="f6fa427e-fd56-41dc-b35c-b359384e4c45" />
+      </nodes>
+    </connector9>
+    <connector9 Id="e794692f-8a58-409c-9f03-c0bd29e2491c" edgePoints="[(10.625 : 2.8125); (12 : 2.8125); (12 : 2.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="5b3962b7-f915-493e-badf-6b399368d08f" />
+      <nodes>
+        <subtaskShapeMoniker Id="b1a1474c-4f7c-4307-b559-08d97f211b38" />
+        <parallelMergeShapeMoniker Id="f6fa427e-fd56-41dc-b35c-b359384e4c45" />
+      </nodes>
+    </connector9>
+    <connector9 Id="7677593a-899e-4bda-8106-9e6fed9b50d4" edgePoints="[(12.5 : 1.875); (13.125 : 1.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="b1000cba-a19f-4c89-93cd-8deecbf37444" />
+      <nodes>
+        <parallelMergeShapeMoniker Id="f6fa427e-fd56-41dc-b35c-b359384e4c45" />
+        <subtaskShapeMoniker Id="7a47f2ae-64cf-414c-83cb-3db8d258532c" />
+      </nodes>
+    </connector9>
+    <endNodeShape Id="a0684807-1fb2-43ad-94b6-bb047717e4e1" absoluteBounds="15.5, 1.625, 0.375, 0.375">
+      <endNodeMoniker name="/8f36a574-93b4-4e99-b360-fa17fc5a930d/End task." />
+    </endNodeShape>
+    <connector9 Id="f2e39c60-f2d6-4b6c-8526-9eca12819d5f" edgePoints="[(14.625 : 1.8125); (15.5 : 1.8125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <nextMoniker Id="76309503-0a5f-4528-be2b-0b06825048e1" />
+      <nodes>
+        <subtaskShapeMoniker Id="7a47f2ae-64cf-414c-83cb-3db8d258532c" />
+        <endNodeShapeMoniker Id="a0684807-1fb2-43ad-94b6-bb047717e4e1" />
+      </nodes>
+    </connector9>
+    <geometryShape2 Id="d340d75e-6dee-4f1b-b5d4-11711ddfa990" absoluteBounds="1.625, 1.125, 1, 0.625">
+      <conditionMoniker Id="5704da0d-2c30-45fc-8e73-893c10826d82" />
+    </geometryShape2>
+    <sceneShape Id="0d7153bd-ab6c-448f-836b-5e5e63c31e57" absoluteBounds="3, 1.125, 0.875, 0.625">
+      <sceneMoniker Id="8043aca1-7e63-45a1-940d-6cecbd489bea" />
+    </sceneShape>
+    <subtaskSceneConnector Id="009078fb-98b8-4e41-8fd4-33355edf7869" edgePoints="[(3.3125 : 2.625); (3.3125 : 1.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesSceneMoniker Id="f2812702-47ac-46d1-b407-05ba2f1ac9b1" />
+      <nodes>
+        <subtaskShapeMoniker Id="920f49ea-bf9a-4659-852a-5c77646fec24" />
+        <sceneShapeMoniker Id="0d7153bd-ab6c-448f-836b-5e5e63c31e57" />
+      </nodes>
+    </subtaskSceneConnector>
+    <connector3 Id="6a6d1918-1114-4c0c-af81-addbdb0a38bb" edgePoints="[(2.375 : 2.625); (2.375 : 1.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesConditionMoniker Id="1b08b6a3-476f-40e9-a169-863f35216856" />
+      <nodes>
+        <subtaskShapeMoniker Id="920f49ea-bf9a-4659-852a-5c77646fec24" />
+        <geometryShape2Moniker Id="d340d75e-6dee-4f1b-b5d4-11711ddfa990" />
+      </nodes>
+    </connector3>
+    <sceneShape Id="790431cb-bfcd-4452-a816-7a4507f97204" absoluteBounds="6.625, 0.5, 0.75, 0.375">
+      <sceneMoniker Id="5e5fb412-6dc5-4f63-8c0e-3a3c86d9acf6" />
+    </sceneShape>
+    <geometryShape2 Id="83b051ae-5a7c-4276-a474-b54946277ccb" absoluteBounds="9.5, 1.625, 1.125, 0.5">
+      <conditionMoniker Id="d1c67b9b-396d-4ad4-b8d8-458d17948417" />
+    </geometryShape2>
+    <connector3 Id="a5d08974-1702-45fc-8051-8351b000fce7" edgePoints="[(10.0625 : 1.375); (10.0625 : 1.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesConditionMoniker Id="2a9601b5-8389-4d8c-a5d6-f8cb06acd04b" />
+      <nodes>
+        <subtaskShapeMoniker Id="8c7c1e53-ed94-4276-ac99-11d8083d9c67" />
+        <geometryShape2Moniker Id="83b051ae-5a7c-4276-a474-b54946277ccb" />
+      </nodes>
+    </connector3>
+    <subtaskSceneConnector Id="52190c0f-a1f5-44b3-9bf2-6b140543ab61" edgePoints="[(9.125 : 0.8125); (7.375 : 0.8125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesSceneMoniker Id="9071b510-6e38-4328-a0fa-0def18b8413a" />
+      <nodes>
+        <subtaskShapeMoniker Id="8c7c1e53-ed94-4276-ac99-11d8083d9c67" />
+        <sceneShapeMoniker Id="790431cb-bfcd-4452-a816-7a4507f97204" />
+      </nodes>
+    </subtaskSceneConnector>
+    <sceneShape Id="1f2fbc8c-97a5-471c-9404-cba2b76f39fe" absoluteBounds="8.5, 3.875, 1, 0.375">
+      <sceneMoniker Id="8d92d8b4-7990-48ec-a4e0-1d295195d189" />
+    </sceneShape>
+    <subtaskSceneConnector Id="076c6b57-8de3-44b3-9f7c-a3c5ddd54c1b" edgePoints="[(9.3125 : 3.125); (9.3125 : 3.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesSceneMoniker Id="78549dc2-49f6-4f31-9580-fb94a9d0a5f1" />
+      <nodes>
+        <subtaskShapeMoniker Id="b1a1474c-4f7c-4307-b559-08d97f211b38" />
+        <sceneShapeMoniker Id="1f2fbc8c-97a5-471c-9404-cba2b76f39fe" />
+      </nodes>
+    </subtaskSceneConnector>
+    <geometryShape2 Id="36bf74d6-2593-419a-8de8-b11a774cbd37" absoluteBounds="10, 3.875, 1.125, 0.375">
+      <conditionMoniker Id="fe5963f0-1fe4-4041-9766-6a69c7affae8" />
+    </geometryShape2>
+    <connector3 Id="4528d522-a4ba-4df2-bb7d-8b5714c8aa94" edgePoints="[(10.3125 : 3.125); (10.3125 : 3.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesConditionMoniker Id="1f84f040-c089-437c-b0c8-2d51409cd766" />
+      <nodes>
+        <subtaskShapeMoniker Id="b1a1474c-4f7c-4307-b559-08d97f211b38" />
+        <geometryShape2Moniker Id="36bf74d6-2593-419a-8de8-b11a774cbd37" />
+      </nodes>
+    </connector3>
+    <sceneShape Id="e706b44a-8361-48fe-a083-e0e6f0772385" absoluteBounds="12.75, 3, 1, 0.5">
+      <sceneMoniker Id="257dbba5-fefe-441a-b224-f79a335b012e" />
+    </sceneShape>
+    <subtaskSceneConnector Id="3b1f2c85-be4e-415e-b000-889baea30e41" edgePoints="[(13.4375 : 2.375); (13.4375 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesSceneMoniker Id="11a3947e-29c2-4906-a1cc-60db49379af0" />
+      <nodes>
+        <subtaskShapeMoniker Id="7a47f2ae-64cf-414c-83cb-3db8d258532c" />
+        <sceneShapeMoniker Id="e706b44a-8361-48fe-a083-e0e6f0772385" />
+      </nodes>
+    </subtaskSceneConnector>
+    <geometryShape2 Id="c7557a09-4507-4727-aec9-d766290f6d64" absoluteBounds="14.125, 3, 1, 0.5">
+      <conditionMoniker Id="73083275-f757-473b-8a9d-8fe2ed0ff32b" />
+    </geometryShape2>
+    <connector3 Id="18cdfbcb-7add-405b-8eef-e9132c5d98b1" edgePoints="[(14.375 : 2.375); (14.375 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <subtaskReferencesConditionMoniker Id="25f54ec7-dd5c-4456-80f3-ee1d583ce788" />
+      <nodes>
+        <subtaskShapeMoniker Id="7a47f2ae-64cf-414c-83cb-3db8d258532c" />
+        <geometryShape2Moniker Id="c7557a09-4507-4727-aec9-d766290f6d64" />
+      </nodes>
+    </connector3>
+  </nestedChildShapes>
+</aRProcessDiagram>

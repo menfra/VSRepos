@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="907e4b68-86b4-41d0-927b-40c7ad08a375" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="28387dd4-943a-4095-bf7a-cd455548a828">
+      <sceneComponent Id="a1b9bd06-2b66-43b5-9e12-c5fa6b21397f" name="VeniceText" myID="6" x="10" y="10" z="-2" scanTargetID="2" />
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="12c779fb-91ed-4321-9410-b523c6810456">
+      <sceneComponent Id="58581718-dcbb-4859-b96c-0ec03224f66f" name="VeniceButton" myID="13" x="10" y="20" z="-2" scanTargetID="2">
+        <sceneElement>
+          <navigationFlow Id="71be8132-6953-4187-bf40-7fc70f730346">
+            <sceneComponentMoniker Id="e3351a8b-010c-45cf-bf5a-6f4236905a4d" />
+          </navigationFlow>
+        </sceneElement>
+      </sceneComponent>
+    </sceneHasSceneElement>
+    <sceneHasSceneElement Id="9a3e7985-6356-4399-b96a-ad10d0818339">
+      <sceneComponent Id="e3351a8b-010c-45cf-bf5a-6f4236905a4d" myID="18" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

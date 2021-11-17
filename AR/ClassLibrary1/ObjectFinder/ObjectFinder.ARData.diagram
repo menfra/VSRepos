@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRDataDiagram dslVersion="1.0.0.0" Id="170000f2-bbb5-4dea-8678-eec9dcc8fc81" absoluteBounds="0, 0, 11, 8.5" name="ObjectFinder">
+  <dataModelMoniker Id="a741fdfe-9b9d-42cc-981e-44617906c6a7" />
+  <nestedChildShapes>
+    <buttonShape Id="71053c9e-aef1-47e2-aaf9-dd6b7f913e7a" absoluteBounds="1.25, 2.125, 1.5, 1">
+      <buttonMoniker Id="2b02ab85-ef0a-4de7-b5b3-4dcb195264fa" />
+    </buttonShape>
+    <buttonShape Id="278df541-d7b0-428c-b645-0d6f5dacea28" absoluteBounds="1.25, 3.875, 1.5, 1">
+      <buttonMoniker Id="21d45f81-e3cf-4cc0-8dad-248802b62943" />
+    </buttonShape>
+    <scanTargetShape Id="6f8834ab-bf88-4862-b970-ff6e6c9cddd7" absoluteBounds="6.125, 2, 1.5, 1">
+      <scanTargetMoniker Id="75f9a812-cfc5-4de4-982e-30b5751c3294" />
+    </scanTargetShape>
+    <scanTargetShape Id="3d41b7c1-0bd7-4b32-a318-98aa5db631cf" absoluteBounds="6.125, 4, 1.5, 1">
+      <scanTargetMoniker Id="54e664f6-a5f8-4712-b690-068436f38de5" />
+    </scanTargetShape>
+  </nestedChildShapes>
+</aRDataDiagram>

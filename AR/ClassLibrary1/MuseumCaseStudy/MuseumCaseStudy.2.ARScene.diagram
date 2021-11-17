@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRSceneDiagram dslVersion="1.0.0.0" Id="9019b56a-b866-4967-bcab-8af4d123b71a" absoluteBounds="0, 0, 11, 8.5" name="2">
+  <sceneMoniker Id="907e4b68-86b4-41d0-927b-40c7ad08a375" />
+  <nestedChildShapes>
+    <sceneComponentShape Id="2e3bccca-af41-4e7e-9714-e39ed79ae4da" absoluteBounds="5, 2.25, 1.5, 1" fillColor="White">
+      <sceneComponentMoniker Id="a1b9bd06-2b66-43b5-9e12-c5fa6b21397f" />
+    </sceneComponentShape>
+    <sceneComponentShape Id="f80cf6f0-ff5e-4d4e-af45-3abcd7f96f60" absoluteBounds="5, 3.375, 1.5, 1" fillColor="White">
+      <sceneComponentMoniker Id="58581718-dcbb-4859-b96c-0ec03224f66f" />
+    </sceneComponentShape>
+    <sceneComponentShape Id="4b5d90ef-55c4-428b-8854-7d89e267b6d0" absoluteBounds="7.375, 3.375, 1.5, 1" fillColor="White">
+      <sceneComponentMoniker Id="e3351a8b-010c-45cf-bf5a-6f4236905a4d" />
+    </sceneComponentShape>
+    <connector1 Id="e6831e65-ed3b-4875-9b17-ff56f8616c51" edgePoints="[(6.5 : 3.875); (7.375 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <navigationFlowMoniker Id="71be8132-6953-4187-bf40-7fc70f730346" />
+      <nodes>
+        <sceneComponentShapeMoniker Id="f80cf6f0-ff5e-4d4e-af45-3abcd7f96f60" />
+        <sceneComponentShapeMoniker Id="4b5d90ef-55c4-428b-8854-7d89e267b6d0" />
+      </nodes>
+    </connector1>
+  </nestedChildShapes>
+</aRSceneDiagram>

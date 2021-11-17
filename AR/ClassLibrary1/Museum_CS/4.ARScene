@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="39afd113-db26-49cd-8ed0-7598eccd1589" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="b397d70a-c52d-4848-a7d0-832d9a82ac98">
+      <sceneComponent Id="d12de799-1b3b-4a58-97c6-e7901f1e4139" name="RuralText" myID="8" x="10" y="10" z="-2" scanTargetID="4" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <comment>
+    <sceneHasComment Id="09f548af-8949-4c98-aa09-2826fb32e524">
+      <comment Id="cda89a9d-f7f3-432d-9043-f6bdfd98d4b0" text="This gets shown when the image 'Rural landscape' is in the visible area">
+        <sceneElement>
+          <commentReferencesSceneElement Id="f046c391-9131-4a7c-8a97-129344bf9b45">
+            <sceneComponentMoniker Id="d12de799-1b3b-4a58-97c6-e7901f1e4139" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+  </comment>
+</scene>

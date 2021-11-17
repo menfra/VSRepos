@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ecd967cc-e556-4878-92b9-2d146a3866cd" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="8eaf3991-3eb8-4274-9658-a5b303bf2224">
+      <sceneComponent Id="71ca6adc-2753-498f-b2bc-3d4dcfeb14a9" name="WelcomingMessage" myID="9" x="0" y="0" z="0" scanTargetID="0" />
+    </sceneHasSceneElement>
+  </sceneElement>
+</scene>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="be39b73f-4159-4ef8-bbd5-51cfaac8b34b" xmlns="http://schemas.microsoft.com/dsltools/ARProcess">
+  <elements>
+    <fulltask Id="d7bb990c-f49d-471a-8925-c34bc20067f2" name="MuseumCaseStudy">
+      <targetTask>
+        <next Id="23c1c5d1-6b3d-4fb5-8c42-2437e7a81d1b">
+          <parallelTaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/ParallelTask1" />
+        </next>
+      </targetTask>
+    </fulltask>
+    <parallelTask Id="247add5b-863b-4a17-b260-82f4414823cf" name="ParallelTask1">
+      <targetTask>
+        <next Id="285fd0ed-6396-47c9-a5d5-2042c77de5e1">
+          <subtaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/Subtask1" />
+        </next>
+        <next Id="95d5d47b-5314-4509-ae39-6d831180e579">
+          <subtaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/Subtask2" />
+        </next>
+        <next Id="42276f73-2ba5-4af7-b756-03562e6d8b4c">
+          <subtaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/Subtask3" />
+        </next>
+        <next Id="8b1904ca-97ad-4a95-8414-5ea6abd57da2">
+          <subtaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/Subtask4" />
+        </next>
+      </targetTask>
+    </parallelTask>
+    <subtask Id="93f3b3b7-8b66-4edb-8cc7-5ce8a1082da3" name="Subtask1">
+      <targetTask>
+        <next Id="adccc1fa-a9f8-476f-89f0-f4d51966ca78">
+          <parallelMergeTaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="c13bf4a5-c3e6-4407-a190-bdf071d4b038">
+          <sceneMoniker Id="ac54a91f-556a-4ba1-822b-1ed342d36272" />
+        </subtaskReferencesScene>
+        <subtaskReferencesScene Id="300c972c-4981-440b-8d6c-6d5e5df32957">
+          <sceneMoniker Id="852dbdab-5b48-44f8-a4c4-cd3d085762f4" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="62d5fb0a-c424-4d40-b41b-e337b052bdd9">
+          <conditionMoniker Id="447c8638-8d15-4b6b-9e8f-4805daa3ee61" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="a11d03f2-37c7-457c-94d7-82a298959f85" name="Subtask2">
+      <targetTask>
+        <next Id="fa95dbfc-8ea2-4f8b-9c19-073613eaceb8">
+          <parallelMergeTaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="2e70e1ca-e2d0-4568-985f-26b9942c5bcb">
+          <sceneMoniker Id="6bc24bad-365b-4b8e-b400-aabf18cfd5ad" />
+        </subtaskReferencesScene>
+        <subtaskReferencesScene Id="dc719ade-0037-46d6-9bb0-1c07bef41778">
+          <sceneMoniker Id="852dbdab-5b48-44f8-a4c4-cd3d085762f4" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="f08835c2-09c2-4492-8432-856c78e4c21d">
+          <conditionMoniker Id="447c8638-8d15-4b6b-9e8f-4805daa3ee61" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="071e4f30-1182-436d-8baa-882908840068" name="Subtask3">
+      <targetTask>
+        <next Id="523f6e35-7d16-4279-a3f3-8cadfad9f4c6">
+          <parallelMergeTaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="5d644af8-ad39-46fe-b1e4-1bd2b45e46e0">
+          <sceneMoniker Id="aabb9fc6-30b4-4119-91b0-964a105241f0" />
+        </subtaskReferencesScene>
+        <subtaskReferencesScene Id="ae425989-1995-4bd7-916e-0da7088f9901">
+          <sceneMoniker Id="852dbdab-5b48-44f8-a4c4-cd3d085762f4" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="6405bf5d-9040-4346-a197-e940780dd4eb">
+          <conditionMoniker Id="447c8638-8d15-4b6b-9e8f-4805daa3ee61" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <subtask Id="be4d71e1-79aa-4471-a1cc-f32495ae9116" name="Subtask4">
+      <targetTask>
+        <next Id="8718a463-f12f-4620-af73-1a082deed7f8">
+          <parallelMergeTaskMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/ParallelMergeTask1" />
+        </next>
+      </targetTask>
+      <scene>
+        <subtaskReferencesScene Id="90864ac7-4645-403b-ba90-8410580f837e">
+          <sceneMoniker Id="a43b74ee-5244-46b6-bc55-d222e8f899e1" />
+        </subtaskReferencesScene>
+        <subtaskReferencesScene Id="ae112e13-c240-4b73-b3b0-f5337e1569fc">
+          <sceneMoniker Id="852dbdab-5b48-44f8-a4c4-cd3d085762f4" />
+        </subtaskReferencesScene>
+      </scene>
+      <condition>
+        <subtaskReferencesCondition Id="5661e77b-f73d-470a-bad1-6c7baae90701">
+          <conditionMoniker Id="447c8638-8d15-4b6b-9e8f-4805daa3ee61" />
+        </subtaskReferencesCondition>
+      </condition>
+    </subtask>
+    <parallelMergeTask Id="656a4848-014d-4969-a38b-ec3a088ee24e" name="ParallelMergeTask1">
+      <targetTask>
+        <next Id="7a09ebef-e1b2-48c5-954c-a7f482be54d8">
+          <endNodeMoniker name="/be39b73f-4159-4ef8-bbd5-51cfaac8b34b/EndNode1" />
+        </next>
+      </targetTask>
+    </parallelMergeTask>
+    <endNode Id="8631cb59-fe0c-419b-86fe-ffb2441f3e85" name="EndNode1" />
+  </elements>
+  <scene>
+    <dSLModelHasScene Id="f45f8974-f594-4846-a044-6e0cff47be83">
+      <scene Id="ac54a91f-556a-4ba1-822b-1ed342d36272" name="TheGrandCanalScene" myID="1" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="a4603350-5889-4bef-9254-d797ad0bd041">
+      <scene Id="6bc24bad-365b-4b8e-b400-aabf18cfd5ad" name="VeniceScene" myID="2" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="96d60d07-3527-4285-8c11-9ff2af72a71e">
+      <scene Id="aabb9fc6-30b4-4119-91b0-964a105241f0" name="LandscapeScene" myID="3" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="604c3944-f2a1-4376-9430-89e3fb29ff07">
+      <scene Id="a43b74ee-5244-46b6-bc55-d222e8f899e1" name="RuralScene" myID="4" />
+    </dSLModelHasScene>
+    <dSLModelHasScene Id="0963b5b7-d096-4cb7-bcb3-f0c7c2b0a21d">
+      <scene Id="852dbdab-5b48-44f8-a4c4-cd3d085762f4" name="EndingButtonScene" myID="5" />
+    </dSLModelHasScene>
+  </scene>
+  <condition>
+    <dSLModelHasCondition Id="db53d402-b4a4-4500-aa98-95eab2eb7e9d">
+      <condition Id="447c8638-8d15-4b6b-9e8f-4805daa3ee61" type="user" finishingID="0" name="UserCondition" />
+    </dSLModelHasCondition>
+  </condition>
+</dSLModel>

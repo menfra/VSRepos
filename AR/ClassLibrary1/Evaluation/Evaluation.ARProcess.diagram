@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aRProcessDiagram dslVersion="1.0.0.0" Id="94ef9de1-f08e-4df3-9c56-ad8613cef7e2" absoluteBounds="0, 0, 11, 8.5" name="Evaluation">
+  <dSLModelMoniker Id="3165de80-fe30-4956-9145-a6e8b45b4def" />
+  <nestedChildShapes>
+    <fulltaskShape Id="ab047473-5cdf-4d5a-8755-d2420d5128d8" absoluteBounds="0.875, 2.75, 1, 1" fillColor="LightGray">
+      <startEventMoniker name="/3165de80-fe30-4956-9145-a6e8b45b4def/StartEvent1" />
+    </fulltaskShape>
+    <subtaskShape Id="4d7a4438-0259-435f-9812-7a9cb0ada547" absoluteBounds="3.875, 3.125, 1.5, 0.5" fillColor="LightGray">
+      <subtaskMoniker name="/3165de80-fe30-4956-9145-a6e8b45b4def/Subtask1" />
+    </subtaskShape>
+    <sceneShape Id="db536d35-1944-461c-9175-d41e5f94e1e7" absoluteBounds="4.125, 1.625, 1, 0.75" fillColor="LightBlue">
+      <sceneMoniker Id="2e1e7515-5dbc-4ae9-91ab-90338cc6fc99" />
+    </sceneShape>
+    <subtaskSceneConnector Id="00762733-62c2-4476-809c-db4ad8ff1d80" edgePoints="[(4.625 : 3.125); (4.625 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <subtaskReferencesSceneMoniker Id="ccf5ca7d-5b38-4e71-9b02-59e6938d04ea" />
+      <nodes>
+        <subtaskShapeMoniker Id="4d7a4438-0259-435f-9812-7a9cb0ada547" />
+        <sceneShapeMoniker Id="db536d35-1944-461c-9175-d41e5f94e1e7" />
+      </nodes>
+    </subtaskSceneConnector>
+  </nestedChildShapes>
+</aRProcessDiagram>

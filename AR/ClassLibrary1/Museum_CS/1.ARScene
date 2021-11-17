@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="41fbb89f-7afd-4766-84bf-a014d929b968" xmlns="http://schemas.microsoft.com/dsltools/ARScene">
+  <sceneElement>
+    <sceneHasSceneElement Id="195bbede-203a-4221-8ce3-fcbde67e8b41">
+      <sceneComponent Id="71dc85e3-31d6-4585-a165-baf246b2af1c" name="TheHollowText" myID="5" x="10" y="10" z="-2" scanTargetID="1" />
+    </sceneHasSceneElement>
+  </sceneElement>
+  <comment>
+    <sceneHasComment Id="5b63107b-ad39-443e-95b5-67a48966a5b8">
+      <comment Id="b3171149-e6de-40db-927f-e60480c7445e" text="This gets shown when the image 'The grand canal' is in the visible area">
+        <sceneElement>
+          <commentReferencesSceneElement Id="1d6667a9-5d31-4ef9-8f1b-6ac75133c73f">
+            <sceneComponentMoniker Id="71dc85e3-31d6-4585-a165-baf246b2af1c" />
+          </commentReferencesSceneElement>
+        </sceneElement>
+      </comment>
+    </sceneHasComment>
+  </comment>
+</scene>

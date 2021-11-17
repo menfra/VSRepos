@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ceaf8cbf-a49d-4be9-b536-dc96fecd46ce" xmlns="http://schemas.microsoft.com/dsltools/ARProcess">
+  <elements>
+    <fulltask Id="2229dd90-c31d-420a-a465-67f0d045bd1a" name="Welcome to the tourist center.">
+      <targetTask>
+        <next Id="c076e3c8-a91b-4d74-92d7-ea74a0cc927f">
+          <splittaskMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/Splittask1" />
+        </next>
+      </targetTask>
+    </fulltask>
+    <splittask Id="3f6cff2e-1d7d-4d7c-a921-a0a74a439af2" name="Splittask1">
+      <decision>
+        <splittaskReferencesDecision Id="3c588535-5d3a-453b-8a9c-ba949c611f7d">
+          <decisionMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/I want AR guided tour?" />
+        </splittaskReferencesDecision>
+        <splittaskReferencesDecision Id="53aa152e-a465-4cb3-b1d9-38ef8b8235ba">
+          <decisionMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/I want a normal tour?" />
+        </splittaskReferencesDecision>
+      </decision>
+    </splittask>
+    <decision Id="2d19418b-bce9-4011-b985-ac70304a6e28" name="I want AR guided tour?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="576156f9-be62-46d3-a086-390056cad6b3">
+          <subtaskMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/Follow the virtual anchors." />
+        </next>
+      </targetTask>
+    </decision>
+    <decision Id="4e7c6d3c-f0d1-4ccc-a3c4-2ba5f30d8b80" name="I want a normal tour?" scanTarget="0" finishingID="0">
+      <targetTask>
+        <next Id="d5bcca2a-185c-4358-ac4a-aea1c18956e4">
+          <endNodeMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/End of task." />
+        </next>
+      </targetTask>
+    </decision>
+    <subtask Id="495cac2e-85f5-4685-9183-72534de2be9b" name="Follow the virtual anchors.">
+      <targetTask>
+        <next Id="dbdadab8-aaee-4d1c-ad7b-7598137e41ce">
+          <endNodeMoniker name="/ceaf8cbf-a49d-4be9-b536-dc96fecd46ce/End of task." />
+        </next>
+      </targetTask>
+    </subtask>
+    <endNode Id="ab614ab1-e71d-4588-8753-76d04f68c775" name="End of task." />
+  </elements>
+</dSLModel>

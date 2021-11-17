@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f7123774-a80c-49cd-8842-9e55a1aa5b5a" xmlns="http://schemas.microsoft.com/dsltools/ARData">
+  <sceneObject>
+    <dataModelHasSceneObject Id="c779a4e8-cc10-46fc-a3d2-4e2309cebc2f">
+      <button Id="8c348e21-4157-4fd3-883b-5de6e7641f48" myID="0" name="Button1" caption="Click here to end the tour" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="f48b5cc7-f5bf-4355-a703-5aab7f317d2c">
+      <scanTarget Id="c628ece3-97d4-4eeb-9183-02d76124201b" myID="1" name="TheGrandCanal" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="aca90e66-72ef-4bd8-9ca7-f2a02db9e597">
+      <scanTarget Id="f5144e71-1e42-4ba6-90d3-ec4d1ee303b4" myID="2" name="Venice" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="93017a01-dd28-4393-832f-fe628da5ecdd">
+      <scanTarget Id="186d5c1b-d6ce-4ac1-baa0-3b26d7b3e781" myID="4" name="Rural" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="f54bfef4-762e-411c-b464-83388d085158">
+      <scanTarget Id="eacebc6c-9db4-4755-8307-b05738ef4672" myID="3" name="Landscape" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="17bc1038-a040-440c-a1a5-8fd7050ef0af">
+      <textField Id="09e42a9c-5bb2-476e-a9d1-1fa0fc99bc47" myID="5" name="TheGrandCanalText" text="Venice: The grand canal, J. M. W. Turner, c.1840" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="98fe5b58-3482-4e0c-8856-3a7a5786bca5">
+      <textField Id="9b3f275b-3608-4acf-a7fa-de535c629de0" myID="6" name="VeniceText" text="A sotrm in the lagoon, Venice, J. M. W. Turner, c. 1830" />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="3b7b8abf-fe75-49cc-b743-fdcc1e0d4fe0">
+      <textField Id="9d2cc37f-f0f4-4102-a046-df6ebbe24d05" myID="7" name="LandscapeText" text="Landscape with setting sun', a watercolour drawing by Eugene Delacroix, 1888 " />
+    </dataModelHasSceneObject>
+    <dataModelHasSceneObject Id="9a1415ff-9344-4f87-9aa6-70055dc0e4a1">
+      <textField Id="7c93be46-c837-4ae2-b258-68dc5ea96f80" myID="8" name="RuralText" text="Rural landscape, printed by Kobayashi Kiyochika, 1880 " />
+    </dataModelHasSceneObject>
+  </sceneObject>
+  <networkObject>
+    <dataModelHasNetworkObject Id="8ba77f22-21b7-4bd7-aa8c-6d3422090ad2">
+      <networkHandler Id="cdf43e5b-79b7-4e26-8275-f4e7842175c8" />
+    </dataModelHasNetworkObject>
+  </networkObject>
+</dataModel>
